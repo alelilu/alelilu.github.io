@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/styles.css" rel="stylesheet">
+     <!-- Animaciones CSS CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   <title>Portafolio de proyectos</title>
+</head>
+<body>
+    <!--Barra de navegación-->
+    <nav>
+        <h1>Alejandra Santoyo</h1>
+        <ul>
+            <li><a href="about" class="nav-link">Sobre mí</a></li>
+            <li><a href="skills" class="nav-link">Habilidades</a></li>
+            <li><a href="projects" class="nav-link">Proyectos</a></li>
+            <li><a href="#contact" class="nav-link">Contacto</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <!--Hero-->
+    <div class="aviso">
+        <img src="assets/images/casco.png">
+        <p>Antes de bajar ponte tu casco...este sitio se encuentra en construcción (:</p>
+    </div>
+    <section class="hero" id="about">
+        <img
+          src="assets/images/perfil.jpeg"
+          alt="jane-doe"
+          loading="lazy"
+          class="hero-img"
+        />
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">¡Hola!</h2>
+          <p class="bio-text">
+            Bienvenidos a mi portafolio 
+          </p>
+        </div>
+      </section>
+
+    <!--Acerca de mí-->
+    <section class="more-about">
+        <h2>Sobre mí</h2>
+        <p>Soy una diseñadora gráfica de la Ciudad de México. Me gusta desarrollar ideas y buscar elementos adecuados para crear productos estéticamente agradables, pero, sobre todo, funcionales.</p>
+        <p>Me considero una persona creativa, responsable y empática. Disfruto del trabajo en equipo y doy lo mejor de mí en cada nuevo reto que se me presenta.</p>
+        <p>Desde hace tiempo, me he decantado por el diseño web y el diseño UX/UI, por lo que, además de mis conocimientos en la Suite Adobe, he aprendido a manejar Figma, HTML5, CSS3, Visual Studio Code y Github. Así mismo, durante mi recorrido de aprendizaje he descubierto herramientas como Notion, Slack, Miro y Jira.</p>
+        
+    </section>
+
+    <!--Habilidades-->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">Habilidades</h2>
+        <div class="skill-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/icons8-github-50.svg" alt="" loading="lazy" class="icon icon-card">
+            </div>
+            <div class="second-set animate__animated animate__pulse">
+                <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/adobe.png" alt="" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/figma.png" alt="" loading="lazy" class="icon icon-card">
+            </div>
+        </div>
+    </section>
+
+    <!--Proyectos-->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Mis proyectos</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="assets/images/Pinterest-copy.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Clon de Pinterest</h3>
+                <p class="project-details">Este proyecto es un clon de la interfaz de usuario de Pinterest, creado puramente con HTML5 y CSS3.</p>
+                <a href="https://pinterestcloneinterfaz.vercel.app/" target="_blank" class="project-link">Ver</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="assets/images/Youtube-copy.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Clon de YouTube</h3>
+                <p class="project-details">Este proyecto es un clon de la interfaz de usuario de YouTube, creado puramente con HTML5 y CSS3.</p>
+                <a href="https://youtube-clone-indol-six.vercel.app/" target="_blank" class="project-link">Ver</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="assets/images/Hello-Forest.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Hello, Forest!</h3>
+                <p class="project-details">Este proyecto es el resultado de un ejercicio del uso de Flexbox y un pequeño escape para los momentos abrumadores. Construido con HTML5, CSS3 y un toquecito de Javascript.</p>
+                <a href="https://hello-forest-sandy.vercel.app/" target="_blank" class="project-link">Ver</a>
+            </div>
+           
+        </div>
+    </section>
+
+    <!--Contacto-->
+    <section>
+        
+    </section>
+
+    <!--Redes sociales-->
+    <div class="socials">
+        <a href="https://github.com/alelilu" target="_blank"><img src="assets/icons/github.gif" alt="Github" loading="lazy" class="socicon"></a>
+        <a href="https://www.linkedin.com/in/aslebarr94/" target="_blank"><img src="assets/icons/linkedin.gif" alt="LinkedIn" loading="lazy" class="socicon"></a>
+    </div>
+
+    <!--Scroll button-->
+    <i class="scroll-up" id="scroll-up">
+        <img src="assets/icons/Image20240523200354.gif" class="socicon up-arrow">
+    </i>
+
+    <!--Footer-->
+    <footer>
+        <p>Built with &#x2661 by <a href="https://www.linkedin.com/in/aslebarr94/" target="_blank">Alejandra Santoyo</a></p>
+    </footer>
+
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+</body>
+</html>
